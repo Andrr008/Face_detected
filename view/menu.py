@@ -6,8 +6,8 @@ from PIL import Image
 
 def menu():
 # Configurasi Window
-    from view.input import opencv
-    from view.detect import detect_face
+    from input import opencv
+    from detect import detect_face
     app = ctk.CTk()
     # app.overrideredirect(True)  # Hilangkan title bar (tidak bisa dipindah)
     ctk.set_appearance_mode("system")
