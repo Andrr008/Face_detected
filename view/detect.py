@@ -15,7 +15,7 @@ def detect_face():
         distance = norm(embedding_input - saved_embedding)
         threshold = 1.0
         if distance < threshold:
-            return "Faizal Andra"
+            return "Detected"
         else:
             return "Unknown"
     
